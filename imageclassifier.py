@@ -4,8 +4,8 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from PIL import Image
 import scipy
 # Set the path to your dataset
-train_data_dir = '/Users/wesle/Downloads/Ocean-Shoreline-recognition/images/train'
-validation_data_dir = '/Users/wesle/Downloads/Ocean-Shoreline-recognition/images/validation'
+train_data_dir = 'to/images/train/path' #insert path to training file
+validation_data_dir = 'to/images/validation/path' #insert path to validation file
 
 # Parameters
 img_width, img_height = 224, 224
