@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 model = load_model('ocean_land_classifier_model.h5')
 
 # Define the path to the test image
-test_image_path = '/Users/wesle/Downloads/Ocean-Shoreline-recognition/test2.jpg'
+test_image_path = 'path/to/image.jpg' #Insert path to image
 
 # Load and preprocess the test image
 img = image.load_img(test_image_path, target_size=(224, 224))
